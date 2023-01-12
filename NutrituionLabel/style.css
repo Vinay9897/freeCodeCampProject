@@ -58,7 +58,12 @@ p {
 }
 
 .font-medium {
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.font-small {
+    font-size: 0.9rem;
+    padding: 0.1rem 0;
 }
 
 .up {
@@ -82,4 +87,15 @@ p {
     display: inline;
 }
 
-.right {}
+.intent {
+    margin-left: 1em;
+}
+
+.double-intent {
+    margin-left: 2em;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
