@@ -63,22 +63,27 @@ main {
 
 h2 {
     border-bottom: 3px solid rgb(190, 188, 188);
+    font-family: Verdana, Tahoma;
 }
 
 section {
     width: 80%;
     max-width: 500px;
-    margin: 10px auto;
+    margin: 0px auto 10px auto;
 }
 
 label {
-    width: 10%;
+    /* display: inline-block; */
+    width: 15%;
     min-width: 55px;
     text-align: right;
 }
 
-input {
+legend input {
+    display: inline-block;
     width: 50%;
+    padding-left: 1px;
+    text-align: left;
 }
 
 .info {
@@ -88,4 +93,53 @@ input {
 
 .box {
     padding: 5px;
+}
+
+p {
+    padding: 1rem;
+    padding-left: 0px;
+}
+
+p::before {
+    content: "Question #";
+}
+
+fieldset {
+    border: none;
+    padding: 0px;
+}
+
+legend {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+select,
+textarea {
+    margin: .5rem 0px;
+    display: block;
+}
+
+button {
+    display: block;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    background-color: rgb(33, 9, 49);
+    justify-content: center;
+    text-align: center;
+    color: grey;
 }
