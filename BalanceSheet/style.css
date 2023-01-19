@@ -28,14 +28,10 @@ main {
     height: 30px;
     background-color: black;
     border: 2px solid black;
-    /* display: block;
-    position: fixed; */
-    /* top: 0; */
 }
 
 .bl-header ul {
     display: flex;
-    /* width: 30%; */
     height: 100%;
     color: white;
     justify-content: flex-end;
