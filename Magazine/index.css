@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Baskervville', serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 8rem;
+    color: orangered;
+}
+
+header p {
+    font-size: 4rem;
+}
+
+.info {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    margin-top: 1%;
+}
+
+.author {
+    width: 50%;
+    font-size: 4rem;
+}
+
+.social-icons {
+    width: 50%;
+    font-size: 4rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    color: white;
+}
