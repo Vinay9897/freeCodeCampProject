@@ -64,3 +64,49 @@ header p {
     align-items: center;
     color: white;
 }
+
+.text {
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
+    grid-column: 2 / 3;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    text-align: justify;
+}
+
+.author-name a:hover {
+    background-color: #306203;
+}
+
+.publish-date {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.first-paragraph::first-letter {
+    font-size: 6rem;
+    color: orangered;
+    float: left;
+    margin-right: 1rem;
+}
+
+.quote {
+    color: #00beef;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.quote::before {
+    content: '" ';
+}
+
+.quote::after {
+    content: ' "';
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
+}
