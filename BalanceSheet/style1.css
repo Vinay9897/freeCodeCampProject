@@ -17,6 +17,13 @@
     padding: 0 !important;
     margin: -1px !important;
 } */
+#move {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #year {
     display: flex;

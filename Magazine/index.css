@@ -9,6 +9,14 @@ a {
     color: linen;
 }
 
+#move {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 html {
     font-size: 62.5%;
 }

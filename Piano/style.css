@@ -12,6 +12,18 @@ main {
     border-radius: 10px;
 }
 
+#move {
+    width: 50%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#move a {
+    color: yellowgreen;
+}
+
 .img-sec {
     width: 50%;
 }

@@ -5,30 +5,40 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#move {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
-    width: 270px;
+    width: 400px;
     margin: 20px auto;
     border: 2px solid black;
     padding: 0.5rem;
 }
 
 header h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     letter-spacing: 0.10px;
+    /* padding: .2rem; */
 }
 
 p {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .upper {
@@ -62,7 +72,7 @@ p {
 }
 
 .font-small {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0.1rem 0;
 }
 
